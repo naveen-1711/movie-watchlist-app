@@ -1,0 +1,77 @@
+
+
+h1{
+    color: whitesmoke;
+    font-weight: normal;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.login-input{
+  background: rgba(255, 255, 255, 0.3);
+  color: black;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 10px;
+  padding: 0px 20px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+button{
+    background: rgba(45, 126, 231);
+    height: 45px;
+    line-height: 0px;
+    border-radius: 10px;
+    border: none;
+    margin: 0px 10px;
+    box-shadow: 0px 0px 5px;
+    color: white;
+    font-size: 13px;
+    text-transform: uppercase;
+    margin-top: 30px;
+
+}
+
+.loginpage{
+    padding: 90px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 1px solid black;
+    width: 400px;
+    height: 600px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+    text-align: left;
+}
+
+::placeholder {
+    color: black;
+    opacity: 0.5; 
+  }
+
+
+.login-logo{
+    height: 200px;
+    width: auto;
+    margin-top: 150px;
+    margin-left: 50px;
+}
+
+.terms-and-services{
+    margin-top: 50px;
+}
+
+.log-box{
+    
+    padding: 350px 50px;
+    
+}
+
+.log-welcome{
+    text-align: center;
+    padding: 300px 0px;
+    font-size: 50px;
+    
+}

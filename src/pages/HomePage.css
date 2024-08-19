@@ -1,0 +1,149 @@
+/* HomePage.css */
+
+.home-page .header {
+    background: #000000;
+    color: white;
+    padding: 10px 20px; 
+    width: 100%;
+    box-sizing: border-box;
+    
+  }
+  
+  .home-page .header .container {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between;
+  }
+  
+  .home-page .header .logo {
+    height: 50px; 
+    flex-shrink: 0; 
+    cursor: pointer;
+ }
+  
+  .home-page #head {
+    color: rgb(134, 134, 131);
+    margin: 0; 
+    text-align: right; 
+    padding-right: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+  }
+  
+  .home-page .search-form {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    flex-shrink: 0; 
+  }
+  
+  .home-page .search-form input {
+    border-radius: 20px; 
+    padding: 10px; 
+    width: 100%; 
+  }
+  
+  .home-page .movie-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+  }
+  
+  .home-page .movie-grid .col-md-4 {
+    flex: 1 1 30%; 
+    margin-bottom: 20px;
+  }
+
+  .home-page .movie-grid-row{
+    text-align: center;
+    gap: 20px;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  }
+  .btn-cont {
+    margin-bottom: 20px;
+  }
+
+  
+  .logo {
+    cursor: pointer;
+    
+  }
+
+  .form-control {
+    border-radius: 20px; 
+  }
+
+
+  
+  .user-email{
+    width: 100%; 
+    margin: 0;
+    text-align: center;
+    border-radius: 5px; 
+  }
+  
+  .movie-grid {
+    margin-top: 2rem;
+  }
+
+  #about{
+    background: #000000;
+    color: white; 
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+  }
+
+  #about h4, p{
+    color: #828080;
+    text-align: justify;
+  }
+
+
+  /* navbar */
+
+  nav {
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    /* position: sticky; */
+    top: 0;
+    
+    z-index: 1000;
+}
+
+nav ul {
+    display: flex;
+    gap: 30px;
+    padding: 0;
+}
+
+nav li {
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+nav li a {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+
+.nav-icon {
+    font-size: 20px;
+    color: #ff5722;
+}
+
+
