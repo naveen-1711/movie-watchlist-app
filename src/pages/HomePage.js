@@ -168,8 +168,7 @@ const handleLogout = () => {
               <MovieCard
                 movie={movie}
                 onAddToWatchlist={handleAddToWatchlist}
-                onRemoveFromWatchlist={handl
-                  eRemoveFromWatchlist}
+                onRemoveFromWatchlist={handleRemoveFromWatchlist}
                 isInWatchlist={isInWatchlist(movie.imdbID)}
               />
             </div>
