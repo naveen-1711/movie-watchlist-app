@@ -24,9 +24,9 @@ const WatchlistPage = () => {
 //
 
   return (
-    <div className='container'>
-      <h1 className='watchlist-title'>Your Watchlist</h1>
-      <div className="movie-grid">
+    <div className='container' >
+      <h1 className='watchlist-title' style={{textAlign:'center', fontSize:'60px', color:'green'}}>Your Watchlist</h1>
+      <div className="movie-grid" class='body-for-watchlist'>
         {watchlist.map((movie) => (
           <MovieCard
             key={movie.imdbID}

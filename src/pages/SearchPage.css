@@ -57,7 +57,14 @@
     margin-top: 10px;
   }
   
-
+.search-page{
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
   .sidebar {
     position: fixed;
@@ -68,7 +75,7 @@
     background-color: rgb(16, 16, 16);
     color: rgb(161, 161, 161);
     transition: left 0.3s ease;
-    /* z-index: 1000; */
+    
   }
   
   .sidebar.active {
@@ -103,7 +110,6 @@
 
   .footer-buttons {
     margin-top: auto;
-    padding: 460px 10px;
     text-align: center; 
   }
   

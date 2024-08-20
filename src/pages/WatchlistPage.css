@@ -2,7 +2,17 @@
 .container {
     padding: 20px;
   }
-  
+
+  .body-for-watchlist{
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+  }
+
   .movie-grid {
     display: flex;
     flex-wrap: wrap;
@@ -10,16 +20,7 @@
     
   }
   
-  /* .movie-grid .movie-card {
-    
-        background-color: #000000;
-        border-radius: 18px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        padding: 15px;
-        text-align: center;
-        transition: transform 0.3s ease;
-    
-  } */
+
 
   .watchlist-title{
     color: rgb(255, 255, 255);
@@ -27,13 +28,3 @@
   
 
   
-.watchlist-back-btn{
-  text-align: center;
-}
-.watchlist-back-btn{
-  margin-top: 40px;
-}
-.watchlist-back-btn #btn-1{
-
-  margin-right: 50px;
-}

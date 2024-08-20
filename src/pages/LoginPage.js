@@ -25,7 +25,7 @@ const LoginPage = ({ onLogin }) => {
 
   
 return (
-  <div className="container">
+  <div className="container" class='body-for-login'>
     <div className="log-box row">
       <div className="col-md-6 d-flex align-items-center justify-content-center">
         <div className="loginpage">
@@ -38,7 +38,7 @@ return (
               onChange={(e) => setEmail(e.target.value)}
               className="login-input"
             />
-            <button type="submit">Login</button>
+            <button type="submit" class='btn-for-login'>Login</button>
           </form>
           <div className="terms-and-services">
             <p>
