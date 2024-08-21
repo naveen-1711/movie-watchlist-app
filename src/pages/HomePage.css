@@ -1,6 +1,11 @@
 /* HomePage.css */
 .home-page {
-  font-family: Arial, sans-serif;
+  color: #ffffff;
+    align-items: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative; 
 }
 
 .home-page .header {
@@ -90,10 +95,7 @@
     
   }
 
-  .form-control {
-    border-radius: 20px; 
-  }
-
+ 
 
   
   .user-email{
@@ -169,11 +171,6 @@ nav li a {
     padding: 0 10px;
     
   }
-
-  .home-page .search-form {
-    width: 100%;
-  }
-
   .home-page .movie-grid .col-md-4 {
     max-width: 100%; 
   }

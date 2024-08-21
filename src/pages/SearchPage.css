@@ -1,4 +1,13 @@
 /* HomePage.css */
+  
+.search-page{
+  color: #ffffff;
+  align-items: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative; 
+}
 
 .search-page .header {
     background: #000000; 
@@ -61,20 +70,17 @@
     margin-bottom: 20px;
     z-index: 1;
   }
+
+  .search-page .movie-grid-row{
+    text-align: center;
+    gap: 20px;
+  }
   
   .error-message {
     color: red;
     margin-top: 10px;
   }
-  
-.search-page{
-    color: #ffffff;
-    align-items: center;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    position: relative; 
-}
+
 
   .sidebar {
     position: fixed;
