@@ -87,8 +87,9 @@ const handleLogout = () => {
 //
   return (
     <div className="home-page">
+      <div className="container">
       <header className="header">
-        <div className="container">
+        <div class='items-inside-header'>
         <i className="fa-solid fa-bars fa-2x" onClick={toggleSidebar} style={{ cursor: 'pointer' }} ></i>
           <img 
             src={logo} 
@@ -106,7 +107,7 @@ const handleLogout = () => {
             />
             <button type="button" className="btn btn-primary" class='search-btn'>Search</button>
           </form>
-        </div>
+          </div>
       </header>
 
 
@@ -264,6 +265,7 @@ const handleLogout = () => {
           
           </div>
       </div>
+    </div>
     </div>
     
   );

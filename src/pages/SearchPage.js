@@ -82,16 +82,17 @@ const handleLogout = () => {
 
   return (
     <div className="search-page">
+      <div className="container">
       <header className="header">
-        <div className="container">
+        <div class='items-inside-header'>
         <i className="fa-solid fa-bars fa-2x" onClick={toggleSidebar} style={{ cursor: 'pointer', marginRight: '20px' }}></i>
         <img 
             src={logo} 
             alt="Logo" 
             className="logo" 
             onClick={toggleSidebar} 
-          />
-          <h3 id="head">Welcome to the official MW website</h3>
+          /><h3 id="head">Welcome to the official MW website</h3>
+          
           <form onSubmit={handleSearch} className="search-form">
             <input
               type="text"
@@ -103,7 +104,7 @@ const handleLogout = () => {
             <button type="submit" className="btn btn-primary" class='search-btn'>Search</button>
           </form>
           {error && <p style={{ color: 'red' }}>Error: {error}</p>}
-        </div>
+          </div>
       </header>
       <div ref={sidebarRef} className={`sidebar ${sidebarOpen ? 'active' : ''}`}>
         <div className="sidebar-content">
@@ -164,6 +165,7 @@ const handleLogout = () => {
         </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
