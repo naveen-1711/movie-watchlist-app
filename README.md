@@ -1,4 +1,6 @@
 # movie-watchlist-app
+## Preview
+- https://moviewatchlist-2024.netlify.app/
 ## Overview
 The Movie Watchlist App is a React-based application that allows users to search for movies, view details, and manage a personal watchlist. Users can add or remove movies from their watchlist and browse the latest movie releases.
 
