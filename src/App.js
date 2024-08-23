@@ -17,6 +17,7 @@ const App = () => {
 //to handle logout
     const handleLogout = () => {
       localStorage.removeItem('userEmail');
+      localStorage.removeItem('watchlist');
       setUserEmail(null);
       navigate('/login'); 
     };

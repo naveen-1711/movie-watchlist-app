@@ -21,6 +21,12 @@ const WatchlistPage = () => {
     setWatchlist(updatedWatchlist);
     localStorage.setItem('watchlist', JSON.stringify(updatedWatchlist));
   };
+
+  //clear watchlist
+  const handleClearWatchlist = () => {
+    setWatchlist([]);
+    localStorage.removeItem('watchlist'); // Clears watchlist data
+  };
 //
 
   return (
@@ -40,6 +46,7 @@ const WatchlistPage = () => {
         <div className="watchlist-back-btn">
           <button onClick={() => navigate('/search')} className="btn btn-info" id='btn-1'>Back to Search</button>
           <button onClick={() => navigate('/home')} className="btn btn-info" id='btn-2'>Back to Home</button> 
+          <button onClick={handleClearWatchlist} className="btn btn-warning" id='btn-3'>Clear Watchlist</button>
         </div>
       </div>
     </div>
